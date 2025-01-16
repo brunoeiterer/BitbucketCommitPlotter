@@ -50,9 +50,13 @@ public class CommitData : SortedDictionary<DateTime, int>
 
         plotModel.Series.Add(heatMapSeries);
 
+        var xAxis = new LinearAxis
+        {
+            IsAxisVisible = false
+        };
+
         var yAxis = new CategoryAxis
         {
-            Position = AxisPosition.Left,
             IsAxisVisible = false
         };
 
@@ -79,6 +83,8 @@ public class CommitData : SortedDictionary<DateTime, int>
             IsAxisVisible = false
         };
 
+        plotModel.Axes.Add(xAxis);
+        plotModel.Axes.Add(yAxis);
         plotModel.Axes.Add(colorAxis);
 
         for (var week = 0; week < 53; week++)

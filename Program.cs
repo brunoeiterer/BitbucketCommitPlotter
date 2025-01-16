@@ -10,6 +10,9 @@ var commitData = commitDataDownloader.GetCommitData();
 File.WriteAllText("CommitData.json", commitData.ToJson());
 
 /* Get commit data from json file */
-// var commitData = CommitData.FromJson(File.ReadAllText(@"C:\Bruno\Code\BitbucketBitbucketCommitPlotter\CommitData.json"));
+/*
+var filePath = "";
+var commitData = CommitData.FromJson(File.ReadAllText(filePath));
+*/
 
 commitData.PlotCommitGraph(new DateTime(configuration.Year, 1, 1), new DateTime(configuration.Year, 12, 31), configuration.PlotCommiterName);
