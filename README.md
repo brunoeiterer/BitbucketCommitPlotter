@@ -1,3 +1,5 @@
+[![pt-br](https://img.shields.io/badge/lang-pt--br-green.svg)](https://github.com/brunoeiterer/BitbucketCommitPlotter/blob/master/README-pt-br.md)
+
 # BitbucketCommitPlotter
 A c# app to get commit data from Bitbucket's API and plot like the github contribution graph
 
