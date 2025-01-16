@@ -25,8 +25,8 @@ cd BitbucketCommitPlotter
   * PlotCommiterName is the name to be displayed in the generated commit graph
 ```
 "Projects": {
-"Project1": ["repo1", "repo2"],
-"Project2": ["repo3", "repo4"]
+    "Project1": ["repo1", "repo2"],
+    "Project2": ["repo3", "repo4"]
 },
 "Year": 2024,
 "BaseUrl": "https://companygit.com",
