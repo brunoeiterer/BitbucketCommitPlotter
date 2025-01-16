@@ -18,7 +18,7 @@ git clone https://github.com/brunoeiterer/BitbucketCommitPlotter.git
 cd BitbucketCommitPlotter
 ```
 * Crie um arquivo de configuração com o nome Config.json na raíz do repositório com os seguintes atributos:
-  * Projects deve conter atributos cujos nomes são o um projeto no Bitbucket e o valor é uma lista de repositórios para buscar pelos commits
+  * Projects deve conter atributos cujos nomes são um projeto no Bitbucket e o valor é uma lista de repositórios para buscar pelos commits
   * Year é o ano para filtrar os commits
   * BaseUrl é a url do servidor Bitbucket para buscar os commits
   * Username é o usuário para autenticar no servidor Bitbucket
