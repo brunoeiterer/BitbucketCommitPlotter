@@ -8,7 +8,7 @@ Esse é o meu gráfico de 2024:
 
 ## Como rodar o projeto
 
-### Pré-Requisito
+### Pré-Requisitos
 * .NET SDK 8 ou maior instalado
 
 ### Passo a Passo
